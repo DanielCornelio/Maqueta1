@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #032689;
+}
+.redes{
+    display: flex;
+    padding: 10px;
+}
+    .redes a{
+        display: flex;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: #0066cc;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .redes a:hover{
+        color: #fff;
+    }
+.tel-btn{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+    .telefonos{
+        margin-right: 15px;
+    }
+        .telefonos span{
+            margin-left: 15px;
+        }
+    .callmeback{
+        display: flex;
+        background-color: #ffbd1a;
+        padding: 5px;
+        border-bottom: 3px solid #ff831d;
+        border-radius: 3px;
+        font-weight: bold;
+    }
+        .callmeback a{
+            color: #000;
+            text-decoration: none;           
+        }
+.logo-nav{
+    display: flex;
+}
+        .logo a img{
+            padding: 20px 0px;
+            width: 100%;
+        }
+    .nav{
+        display: flex;
+     
+    }
+        .nav ul li{
+            list-style: none;
+            display: inline-block;    
+        }
+            .nav ul li a{
+                text-decoration: none;
+                color: #000;
+                font-size: 16px;
+                padding: 10px;
+            }
+            .nav ul li a:hover{
+                font-weight: bold;
+                padding-bottom: 15px;
+                border-bottom: 9px solid #d22940;
+            }
+.slide{  
+    width: 100%;
+    height: 100%;
+}
+.advantages{
+    display: flex;
+}
+    .our{
+        padding: 30px 10px 10px 10px;
+    }
+        .our h1{
+            font-size: 40px;
+        }
+        .our h1 span{
+            color: #0066cc;
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .our p{
+            padding: 10px;
+            color: #a7a9ac;
+        }
+        .blanco{
+            color: #fff;
+        }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+        .card-circle{
+            width: 20%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+            .circle-img{
+                background-color: #f1f2f2;
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 10px;
+            }
+            .circle-img:hover{
+                transition: all 1.5s ease-in-out;
+                transform: rotateY(-360deg);
+                transform-style: preserve-3d;
+            }
+            .circle-img img{
+                height: 70px;
+                width: 70px;        
+            }
+.cources{
+    background-image: url("../img/SVG/fondo2.svg");
+    display: flex;
+    background-size:cover;
+    width: 100%;   
+}
+.sales{
+    display: flex;
+    height: 400px;
+    align-items: center;    
+}
+    .expo{
+        background: rgb(255, 255, 255, .5);
+        padding: 10px;
+        border-radius: 10px;
+        height: 296px;      
+    }
+    .desk{
+        background: rgb(255, 255, 255, .5);
+        padding: 10px;
+        border-radius: 10px;
+        height: 296px;
+    }
+        .sale-img2 {
+            display: flex;
+            align-items: center;
+        }
+        .sale-img2 img{
+            width: 180%;
+            height: 100%;
+        }
+        .sale-text span{
+            color: #d22940;
+            font-weight: bold;
+            font-size: 4em;
+        }
+        .padd{
+            padding: 10px 0px;
+        }
+.tutores-content{
+    display: flex;
+    margin-bottom: 15px;
+   
+    
+}   
+    .tutores-content .tutores{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tutores .tuto-card{
+        padding: 10px;
+        margin: 0 10px;
+        display: flex;
+        flex-flow:column;   
+    }
+    .tuto-img{
+        display: flex;
+        justify-content: center;
+        z-index:1;
+    }
+
+    .tuto-text{
+        background-color: #f1f2f2;
+        padding: 5px;
+        padding-top:50px;
+        margin-top: -40px;
+        
+    }
+    .tuto-text h3{
+        margin-bottom: 10px;
+    }
+    .tuto-text a{
+        color:red;
+        font-weight: bold;
+        
+    }
+.allcources{
+    background-color: #000;
+}
+    .all-enlaces{
+        display: flex;
+
+    }
+    .all-enlaces a{
+        color:#fff;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+    }
+    .all-enlaces a:hover{
+        color:#d22940
+    }

@@ -1,0 +1,14 @@
+header_footer: #032689
+Redes: #0066cc
+rojo: #d22940
+amarillo: #ffbd1a
+sombrabtn: ff831d
+fondo_gris: #f1f2f2
+negro: #212121
+letras_gris: #a7a9ac
+
+4.6024 cm
+10.9368 cm
+
+201.956 px
+72.535 
