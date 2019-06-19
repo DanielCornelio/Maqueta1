@@ -1,6 +1,6 @@
 header_footer: #032689
 Redes: #0066cc
-rojo: #d22940
+rojo: o
 amarillo: #ffbd1a
 sombrabtn: ff831d
 fondo_gris: #f1f2f2

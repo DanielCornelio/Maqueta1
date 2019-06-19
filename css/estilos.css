@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 header{
@@ -163,7 +164,7 @@ header{
             font-size: 4em;
         }
         .padd{
-            padding: 10px 0px;
+            padding: 10px 10px;
         }
 .tutores-content{
     display: flex;
@@ -207,6 +208,7 @@ header{
 }
     .all-enlaces{
         display: flex;
+        flex-wrap:wrap;
 
     }
     .all-enlaces a{
@@ -216,5 +218,211 @@ header{
         font-weight: bold;
     }
     .all-enlaces a:hover{
-        color:#d22940
+        color:#d22940;
     }
+    .cources2{
+        display: flex;
+        flex-wrap:wrap;
+        margin-bottom: 15px;
+    }
+        .cour-img{
+            margin: 10px -10px;
+        }
+        .colorpierojo{
+            background-color: #d22940;
+            padding: 10px;
+            text-align: center;
+            margin-top: -4px;
+        }
+        .colorpieamarillo{
+            background-color:#ffbd1a;
+            padding: 10px;
+            text-align: center;
+            margin-top: -4px;
+        }
+        /* Calendarios */
+.calendar{
+    display: flex;
+    flex-wrap:wrap;
+   
+}
+    .calendar img{
+        padding: 10px;
+    }
+    .webinars {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .btn{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+.people{
+    background-color: #f1f2f2;
+    display: flex;
+}
+.aboutus{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+    .about-img{
+        background-color: #fff;
+        margin-right: 10px;
+        border-radius:50%;
+        margin-left: 15px;
+        flex-wrap: wrap;
+    }
+    .about-img span{
+        display: flex;
+        font-size: 70px;
+        color: #d8d8d8;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 120px;
+        
+    }
+    .about-text{
+        display:flex;
+        justify-content: center;
+        flex-flow:column;
+
+    }
+    .bolitas ul{
+        display: flex;
+        justify-content: center;
+    }
+    .bolitas ul li{
+        height: 15px;
+        width: 15px;
+        background-color: #ffbd1a;
+        list-style:none;
+        border-radius:50%;
+        margin: 0px 8px 15px 0px;
+    }
+    .bolitas ul li:hover{
+        background-color: #d22940;
+    }
+.find{
+    background-color: #0066cc;
+    color:#fff;
+    display: flex;
+    padding: 35px 0 0 0;
+    
+}
+.textbox{
+    display: flex;
+    margin: 25px 0px;
+    flex-direction: column;
+}
+.cajita{
+    border-radius: 5px;
+    padding: 10px;
+    width: 25%;
+    margin: 10px;
+    
+}
+.boton{
+        background-color: #ffbd1a;
+        padding: 5px;
+        border-bottom: 3px solid #ff831d;
+        border-radius: 4px;
+        font-weight: bold;
+        border-top-color: #ffbd1a;
+        border-left-color: #ffbd1a;
+        margin-bottom: 35px;
+}
+.tel-contact{
+    display: flex;
+    flex-direction: column;
+
+}
+.tel-contact span{
+    color: #032689;
+    margin-right: 10px;
+}
+.tel-mail{
+    display: flex;
+
+}
+.tel-mail h3{
+   padding: 15px;
+   display: flex;
+   margin-bottom: 15px;
+}
+.footer{
+    background-color: #032689;
+}      
+.footerfin{
+    display: flex;
+    color: #fff;
+    margin-bottom: 20px;
+   
+}
+.foot-logo {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.foot-logo img{
+    margin-bottom: 25px;
+}
+.foot-logo p{
+    margin-bottom: 90px;
+}
+.services{
+    padding:20px 0px 0px 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+.services a{
+    color: #fff;
+    padding: 5px;
+
+}
+.link{
+    padding:20px 0px 0px 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+.link a{
+    color: #fff;
+    padding: 5px;
+}
+.contact{
+    padding-top: 20px;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+
+}
+.mrgn{
+    margin-bottom: 15px;
+}
+.redes-foot{
+    display: flex;
+   
+
+}
+.redes-foot a{
+        margin-top: 25px;
+        display: flex;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: #0066cc;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+    .redes-foot a:hover{
+        color: #fff;
+    }
+
+       
